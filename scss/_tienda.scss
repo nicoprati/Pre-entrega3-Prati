@@ -58,11 +58,11 @@
     grid-area: actions;
 }
 
- .tienda .filters{
+.tienda .filters{
     grid-area: filters;
  }
 
- .tienda .prod1{
+.tienda .prod1{
     grid-area: prod1;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
     border-color: 1px black solid;
 }
 
- .tienda .prod2{
+.tienda .prod2{
     grid-area: prod2;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@
     align-items: center;
 }
 
- .tienda .prod3{
+.tienda .prod3{
     grid-area: prod3;
     display: flex;
     flex-direction: column;
@@ -87,7 +87,7 @@
     align-items: center;
 }
 
- .tienda .prod4{
+.tienda .prod4{
     grid-area: prod4;
     display: flex;
     flex-direction: column;
@@ -95,50 +95,45 @@
     align-items: center;
 }
 
- .tienda .prod5{
+.tienda .prod5{
     grid-area: prod5;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
- }
+    align-items: center;  
+}
 
- .tienda .prod6{
+.tienda .prod6{
     grid-area: prod6;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
- }
+    align-items: center; 
+}
 
- .tienda .prod7{
+.tienda .prod7{
     grid-area: prod7;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
- }
+    align-items: center;   
+}
 
- .tienda .prod8{
+.tienda .prod8{
     grid-area: prod8;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
- }
+    align-items: center;  
+}
 
- .tienda .prod9{
+.tienda .prod9{
     grid-area: prod9;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
- }
+}
 
 .container{
     background-color: rgb(133, 133, 133,0.7);
@@ -147,7 +142,7 @@
     text-align: center;
     width: 90%;
     justify-content: space-between;
-    }
+}
 
 .container a {
     display: flex;
@@ -157,7 +152,7 @@
 .container h2 {
     color: $keyColor;
     height: 50%;
-    
+    padding-top: 20px;
 }
 
 .productos-mas-vendidos{
@@ -177,8 +172,7 @@
 }
 
 figure p{
-    font-size: $textXsm;
-    
+    font-size: $textXsm;   
 }
 
 .categorias{
@@ -188,7 +182,7 @@ figure p{
     text-align: center;
     width: 80%;
     justify-content: space-between;
-    }
+}
 
 .cards-categoria{
     flex-wrap: wrap;

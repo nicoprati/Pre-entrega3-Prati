@@ -78,6 +78,7 @@ p {
     line-height: 1.3em;
     color: $keyColor;
 }
+
 main {
     padding-bottom: 50px;
         section {
@@ -147,4 +148,22 @@ footer{
             list-style: none;
             color: $keyColor;
         }
+        div ul li a{
+            text-decoration: none;
+            list-style: none;
+            color: $keyColor;
+        }
+}
+.bi.bi-facebook {
+    width: 100px;
+    height: 35px;
+}
+  
+.bi.bi-instagram{
+    width: 100px;
+    height: 35px;
+}
+.bi.bi-youtube{
+    width: 100px;
+    height: 35px;
 }
